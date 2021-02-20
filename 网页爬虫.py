@@ -72,7 +72,8 @@ def getcomments(bullets_data):
             sheet.write('I%d' % row, time)
 
             sheet.write('L%d' % row, name)
- 
+            
+            row += 1
             
 
         workbook.close()
