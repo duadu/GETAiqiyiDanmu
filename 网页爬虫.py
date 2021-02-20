@@ -67,7 +67,7 @@ def getcomments(bullets_data):
 
             time = str(int(eval(times)/60))+"分"+str(eval(times)-int(eval(times)/60)*60)+"秒"#分进制   eval函数转化数据格式变为可计算
 
-            sheet.write('A%d' % row,66666)
+            sheet.write('A%d' % row,content)
         
             sheet.write('I%d' % row, time)
 
